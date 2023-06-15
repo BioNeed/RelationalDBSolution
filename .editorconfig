@@ -1,0 +1,40 @@
+﻿[*.cs]
+
+# SA1600: Elements should be documented
+dotnet_diagnostic.SA1600.severity = none
+
+# CS8600: Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL.
+dotnet_diagnostic.CS8600.severity = none
+
+# CS8603: Возможно, возврат ссылки, допускающей значение NULL.
+dotnet_diagnostic.CS8603.severity = none
+
+# IDE0090: Используйте "new(...)".
+dotnet_diagnostic.IDE0090.severity = silent
+
+# IDE0059: Ненужное присваивание значения
+dotnet_diagnostic.IDE0059.severity = silent
+
+# CS8618: Поле, не допускающее значения NULL, должно содержать значение, отличное от NULL, при выходе из конструктора. Возможно, стоит объявить поле как допускающее значения NULL.
+dotnet_diagnostic.CS8618.severity = silent
+
+# SA1210: Using directives should be ordered alphabetically by namespace
+dotnet_diagnostic.SA1210.severity = silent
+
+# SA1101: Prefix local calls with this
+dotnet_diagnostic.SA1101.severity = silent
+
+# SA1200: Using directives should be placed correctly
+dotnet_diagnostic.SA1200.severity = silent
+
+# SA1633: File should have header
+dotnet_diagnostic.SA1633.severity = silent
+
+# CA1822: Mark members as static
+dotnet_diagnostic.CA1822.severity = silent
+
+# IDE0063: Использовать простой оператор using
+dotnet_diagnostic.IDE0063.severity = silent
+
+# SA1314: Type parameter names should begin with T
+dotnet_diagnostic.SA1314.severity = silent

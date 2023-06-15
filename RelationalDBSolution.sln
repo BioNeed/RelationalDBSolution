@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServerUI", "SQLServerUI\SQLServerUI.csproj", "{8E83CE4B-3A6F-4E6A-8AA3-14A8222B537F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{79467A43-FD58-4767-B43A-3424BC96EE2C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQLAddressesDB", "SQLAddressesDB\SQLAddressesDB.sqlproj", "{1BAD681A-8985-4396-8896-BEE969FC822E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{82C2F5D5-B9B7-4D31-A48A-1A6657373433}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqliteUI", "SqliteUI\SqliteUI.csproj", "{246C1E27-8AE6-4696-9ED1-F7D132F7E436}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlUI", "MySqlUI\MySqlUI.csproj", "{D19F4D57-CDC3-4ED2-8D76-6C95C89B5457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndependentUI", "IndependentUI\IndependentUI.csproj", "{40EF5A7F-CCEF-4809-9AF5-BAF66F6899B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E83CE4B-3A6F-4E6A-8AA3-14A8222B537F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E83CE4B-3A6F-4E6A-8AA3-14A8222B537F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E83CE4B-3A6F-4E6A-8AA3-14A8222B537F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E83CE4B-3A6F-4E6A-8AA3-14A8222B537F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79467A43-FD58-4767-B43A-3424BC96EE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79467A43-FD58-4767-B43A-3424BC96EE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79467A43-FD58-4767-B43A-3424BC96EE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79467A43-FD58-4767-B43A-3424BC96EE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BAD681A-8985-4396-8896-BEE969FC822E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAD681A-8985-4396-8896-BEE969FC822E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAD681A-8985-4396-8896-BEE969FC822E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1BAD681A-8985-4396-8896-BEE969FC822E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAD681A-8985-4396-8896-BEE969FC822E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BAD681A-8985-4396-8896-BEE969FC822E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{246C1E27-8AE6-4696-9ED1-F7D132F7E436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246C1E27-8AE6-4696-9ED1-F7D132F7E436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246C1E27-8AE6-4696-9ED1-F7D132F7E436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246C1E27-8AE6-4696-9ED1-F7D132F7E436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19F4D57-CDC3-4ED2-8D76-6C95C89B5457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19F4D57-CDC3-4ED2-8D76-6C95C89B5457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19F4D57-CDC3-4ED2-8D76-6C95C89B5457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19F4D57-CDC3-4ED2-8D76-6C95C89B5457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40EF5A7F-CCEF-4809-9AF5-BAF66F6899B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EF5A7F-CCEF-4809-9AF5-BAF66F6899B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EF5A7F-CCEF-4809-9AF5-BAF66F6899B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EF5A7F-CCEF-4809-9AF5-BAF66F6899B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD4E64CE-A390-4B13-8FC3-47E15175F301}
+	EndGlobalSection
+EndGlobal
